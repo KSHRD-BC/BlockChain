@@ -1,4 +1,4 @@
-## Setup Your Environment
+# Setup Your Environment
 ### Utility Packages
 ### Docker
 Docker is a tool for deploying, executing, and managing containers. Hyperledger Fabric is by default packaged as a set of Docker images and it is ready to be run as Docker container.
