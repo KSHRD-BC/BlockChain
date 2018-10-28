@@ -1,0 +1,19 @@
+OrdererOrgs:
+  # ---------------------------
+  # Orderer === ME
+  # ---------------------------
+  - Name: Orderer
+    Domain: kshrd.com.kh
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  # ----------------------------
+  # me.com Organization
+  # ----------------------------
+  - Name: org1
+    Domain: org1.kshrd.com.kh
+    Template:
+      Count: 1
+    Users:
+      Count: 1
