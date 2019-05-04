@@ -152,7 +152,8 @@ curl -sSL http://bit.ly/2ysbOFE | bash -s <fabric-version> <fabric-ca-version> <
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.2.0 1.2.0 0.4.13
 ```
 
-After run the command above, it will show like this:
+After run the command above, it will show following image. 
+
 ```sh
 Installing hyperledger/fabric-samples repo
 
@@ -195,6 +196,12 @@ hyperledger/fabric-kafka       latest              936aef6db0e6        2 weeks a
 hyperledger/fabric-couchdb     0.4.10              3092eca241fc        2 weeks ago         1.61GB
 hyperledger/fabric-couchdb     latest              3092eca241fc        2 weeks ago         1.61GB
 ```
+if docker.sock permission denied appear, enter following command:
+```sh
+~/bin$ chmod 777 /var/run/docker.sock
+
+```
+
 
 Then we can see the binary files and shell script file in the bin ```~/fabric-samples/bin``` directory
 ```sh
