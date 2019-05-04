@@ -793,7 +793,7 @@ To start our network we will use ```docker-compose``` tool. Based on its configu
 
 Inside your network directory, you should have a directory structure similar to the following:
 
-<img src="assets\.1. Hyperledger Fabric v1.2 - Create a Development Business Network on Ubuntu 16.04 LTS_images\82030bed.png" />
+<img src="https://github.com/PENHCHET/hyperledger-fabric-tutorials/raw/master/assets/.1.%20Hyperledger%20Fabric%20v1.2%20-%20Create%20a%20Development%20Business%20Network%20on%20Ubuntu%2016.04%20LTS_images/82030bed.png" />
 
 We have to create the .env file in current directory. There are many environment variables for using with the Docker Compose file.
 
@@ -1366,21 +1366,17 @@ services:
       - couchdb1.webcash.kshrd.com.kh
 ```
 
-###Adding .env File
-# -d = Create .env file in the same directory with docker-compose.yaml and add following text
-COMPOSE_PROJECT_NAME
-
 
 ### Before running docker containers  
 We need to change CA Key File for each Organization's CA inside `docker-composer.yaml`
 
-<img src="assets\.1. Hyperledger Fabric v1.2 - Create a Development Business Network on Ubuntu 16.04 LTS_images\change_CA_Keyfile.png" />
+<img src="https://github.com/PENHCHET/hyperledger-fabric-tutorials/raw/master/assets/.1.%20Hyperledger%20Fabric%20v1.2%20-%20Create%20a%20Development%20Business%20Network%20on%20Ubuntu%2016.04%20LTS_images/change_CA_Keyfile.png" />
 
 CA KeyFile can be found in `cryto-config/peerOrganizations` folder for each orginazation
 
-<img src="assets\.1. Hyperledger Fabric v1.2 - Create a Development Business Network on Ubuntu 16.04 LTS_images\coocon_ca_keyfile.png" />
+<img src="https://github.com/PENHCHET/hyperledger-fabric-tutorials/raw/master/assets/.1.%20Hyperledger%20Fabric%20v1.2%20-%20Create%20a%20Development%20Business%20Network%20on%20Ubuntu%2016.04%20LTS_images/coocon_ca_keyfile.png" />
 
-<img src="assets\.1. Hyperledger Fabric v1.2 - Create a Development Business Network on Ubuntu 16.04 LTS_images\webcash_ca_keyfile.png" />
+<img src="https://github.com/PENHCHET/hyperledger-fabric-tutorials/raw/master/assets/.1.%20Hyperledger%20Fabric%20v1.2%20-%20Create%20a%20Development%20Business%20Network%20on%20Ubuntu%2016.04%20LTS_images/webcash_ca_keyfile.png" />
 
 
 ### Start the docker Containers
